@@ -83,7 +83,7 @@ class Vehicles extends StatelessWidget {
   Expanded _buildVehicle(context, vehicleImage, vehicleSound) {
     return Expanded(
       child: InkWell(
-        child: Image.asset('./assets/images/$vehicleImage', fit: BoxFit.fill),
+        child: Image.asset('./assets/images/$vehicleImage', fit: BoxFit.cover),
         onTap: () {
           _showVehicleDetail(context, vehicleImage, vehicleSound);
           _playSound(vehicleSound);
