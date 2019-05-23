@@ -1,0 +1,34 @@
+name: flutter_vehiclesandsound
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/audio/vehicles/f1.wav
+    - assets/audio/vehicles/fly.wav
+    - assets/audio/vehicles/jet.wav
+    - assets/audio/vehicles/ship.wav
+    - assets/images/f1.jpg
+    - assets/images/fly.jpg
+    - assets/images/jet.jpg
+    - assets/images/ship.jpg
+
